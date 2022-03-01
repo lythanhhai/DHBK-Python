@@ -3,9 +3,9 @@ import random
 def ReplaceBlank():
     count = 0
     word_list = ["ardvark", "baboon", "camel"]
-    word_choose = random.choice(word_list)
+    word_choice = random.choice(word_list)
 
-    print(f"Pssst, the solution is {word_choose}.")
+    print(f"Pssst, the solution is {word_choice}.")
 
     display = []
     condition = 0
@@ -16,15 +16,15 @@ def ReplaceBlank():
             break
 
 
-        if len(display) < len(word_choose): 
-            for letter in word_choose:
+        if len(display) < len(word_choice): 
+            for letter in word_choice:
                 if letter_enter == letter:
                     display.append(letter)
                 else:
                     display.append("_")
         else:
-            for index in range(0, len(word_choose)):
-                if display[index] == "_" and word_choose[index] == letter_enter:
+            for index in range(0, len(word_choice)):
+                if display[index] == "_" and word_choice[index] == letter_enter:
                     display[index] = letter_enter
 
         if "_" not in display:
@@ -35,7 +35,7 @@ def ReplaceBlank():
 
     return count
 
-ReplaceBlank()
+#ReplaceBlank()
 
 
 

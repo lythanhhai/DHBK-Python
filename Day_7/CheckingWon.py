@@ -1,3 +1,3 @@
 import ReplaceBlank
 
-ReplaceBlank
+print(ReplaceBlank.ReplaceBlank())

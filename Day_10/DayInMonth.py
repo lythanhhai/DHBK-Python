@@ -27,6 +27,10 @@ days = days_in_month(year, month)
 print(days)
 
 
+print(year, month, days)
+
+
+
 
 
 

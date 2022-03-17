@@ -33,3 +33,4 @@ class Solution:
         return res
             
 print(Solution().findWords(["qwee"]))
+#`11111111111111111111111111111111`

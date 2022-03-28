@@ -1,4 +1,4 @@
-queue = deque([root])
+def func(queue):
         res = []
         while queue:
             level_len = count = len(queue)
